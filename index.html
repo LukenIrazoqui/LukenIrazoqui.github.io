@@ -288,33 +288,26 @@
 </section>
 
 <!-- https://getbootstrap.com/docs/5.2/forms/overview -->
-<div class="container mt-4 section" id="contact">
+<section class="container mt-4 section" id="contact">
     <h1 class="text-center">Contact Me</h1>
             <!-- form fields -->
         <form class="row g-3" action="https://formsubmit.co/luken.irazoqui@gmail.com" method="post">
-            <div class="col-lg-6">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="from-control" id="firstName" required>
-            </div>
-            <div class="col-lg-6">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="from-control" id="lastName" required>
-            </div>
-            <div class="col-lg-8">
-                <label for="emailInfo" class="form-label">Email</label>
-                <input type="email" class="from-control" id="emailInfo" required>
-            </div>
-            <div class="col-lg-4">
-                <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="text" class="from-control" id="phoneNumber" placeholder="+1 (234) 567-8910">
-            </div>
-            <div class="col-lg-12">
-                <label for="comments" class="form-label">Comments, questions?</label>
-                <textarea class="form-control" id="comments" rows="3"></textarea>
+            <label for="firstLastName"  class="form-label">Name</label>
+            <input type="text" class="form-control form-control-lg" id="firstLastName" required>
+
+            <label for="email"  class="form-label">Email</label>
+            <input type="email" class="form-control form-control-lg" id="email" required>
+
+            <label for="phoneNumber"  class="form-label">Phone number</label>
+            <input type="text" class="form-control form-control-lg" id="phoneNumber" placeholder="+1 (234) 567-8910">
+
+            <label for="comment"  class="form-label">Comments, questions?</label>
+            <div class="mb-3 mt-3">
+                <textarea class="form-control" rows="5" id="comment" name="text" required></textarea>
             </div>
         </form>
         <button type="submit" class="btn btn-success mt-3">Contact Me</button>
-</div>
+</section>
 
 <!-- footer section-->
 <footer class="container-fluid footer" id="footer">
