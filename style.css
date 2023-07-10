@@ -60,7 +60,6 @@
 
 .servicesText.card {
     height: 280px;
-    cursor: pointer;
 }
 .servicesIcon {
     font-size: 36px;
@@ -70,12 +69,7 @@
 .card-title {
     text-align: center;
 }
-.card:hover .servicesIcon {
-    color: #008000;
-}
-.servicesText:hover {
-    border: 1px solid #008000;
-}
+
 
 .footer {
     background-color: #808080;
